@@ -1,23 +1,17 @@
 package hello.servlet;
 
 import jakarta.servlet.ServletException;
-import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 
 import java.io.IOException;
 
-
-/**
- * http://localhost:8080/test
- * */
-//어노테이션 방식 서블릿 등록
-@WebServlet(urlPatterns = "/test")
-public class TestServlet extends HttpServlet {
+//프로그래밍 방식 서블릿등록
+public class HelloServlet extends HttpServlet {
     @Override
     protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        System.out.println("TestServlet.service");
-        resp.getWriter().println("test");
+        System.out.println("HelloServlet.service");
+        resp.getWriter().println("Hello Servlet!!");
     }
 }

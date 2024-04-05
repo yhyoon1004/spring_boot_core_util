@@ -11,7 +11,7 @@ public class MemoryCondition implements Condition {
     public boolean matches(ConditionContext context, AnnotatedTypeMetadata metadata) {
         // -Dmemory=on  java 환경 정보에 memory=on 일 경우에 호출 되도록 설정
         String memory = context.getEnvironment().getProperty("memory");
-        log.info("memor y = {}", memory);
+        log.info("memory = {}", memory);
         return "on".equals(memory);
     }
 }

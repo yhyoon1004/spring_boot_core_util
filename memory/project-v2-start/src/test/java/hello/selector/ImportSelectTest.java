@@ -24,14 +24,15 @@ public class ImportSelectTest {
         assertThat(bean).isNotNull();
     }
 
-
+    /**설정할 클래스를 Import 어노테이션을 직접 선언하여 넣어주는 정적 방식*/
     @Configuration
     @Import(HelloBean.class)
     public static class StaticConfig{
     }
 
+    /**ImportSelector 구현체를 이용해 로직을 태워서 넣어주는 동적 방식*/
     @Configuration
-    @Import(HelloImportSelector.class)  //ImportSelector의 구현체를 클래스를 상용하여 설정 정보 사용
+    @Import(HelloImportSelector.class)  // 구현체를 클래스를 상용하여 설정 정보 사용
     public static class SelectorConfig {
 
     }

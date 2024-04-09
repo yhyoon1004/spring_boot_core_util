@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="memory.MemoryFinderTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-04-05T12:15:10" hostname="yunhwan-ui-MacBookPro.local" time="0.043">
+<testsuite name="memory.MemoryFinderTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-04-06T03:43:35" hostname="yunhwan-ui-MacBookPro.local" time="0.038">
   <properties/>
-  <testcase name="get()" classname="memory.MemoryFinderTest" time="0.043"/>
-  <system-out><![CDATA[memory = Memory{used=13776896, max=536870912}
+  <testcase name="get()" classname="memory.MemoryFinderTest" time="0.038"/>
+  <system-out><![CDATA[memory = Memory{used=14918656, max=536870912}
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -1,0 +1,37 @@
+my:
+  datasource:
+    url: local.db
+    username: yunhwan
+    password: sung
+    etc:
+      max-connection: 1
+      timeout:  60s
+      options: CACHE,ADMIN
+---
+spring:
+  config:
+    activate:
+      on-profile: dev
+my:
+  datasource:
+    url: dev.db
+    username: dev_yunhwan
+    password: dev_sung
+    etc:
+      max-connection: 3
+      timeout:  20s
+      options: DEV,ADMIN
+---
+spring:
+  config:
+    activate:
+      on-profile: prod
+my:
+  datasource:
+    url: prod.db
+    username: prod_yunhwan
+    password: prod_sung
+    etc:
+      max-connection: 10
+      timeout:  50s
+      options: PROD,ADMIN

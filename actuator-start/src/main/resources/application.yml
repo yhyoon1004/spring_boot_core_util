@@ -1,4 +1,7 @@
 management:
+  endpoint:
+    shutdown:
+      enabled: true
   endpoints:
     web:
       exposure:
@@ -10,6 +13,6 @@ spring:
 
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/actuator
+    url: jdbc:mysql://localhost:3306/Actuator
     username: root
     password: 12345678

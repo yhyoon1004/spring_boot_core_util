@@ -1,4 +1,11 @@
 management:
+  info:
+    java:
+      enabled: true
+    os:
+      enabled: true
+    env:
+      enabled: true
   endpoint:
     shutdown:
       enabled: true
@@ -19,3 +26,8 @@ spring:
     url: jdbc:mysql://localhost:3306/Actuator
     username: root
     password: 12345678
+
+info:
+  app:
+    name: SungYunHwan
+    company: yh

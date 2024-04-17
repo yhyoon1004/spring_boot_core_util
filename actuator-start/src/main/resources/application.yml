@@ -31,3 +31,7 @@ info:
   app:
     name: SungYunHwan
     company: yh
+
+logging:
+  level:
+    hello.controller: debug

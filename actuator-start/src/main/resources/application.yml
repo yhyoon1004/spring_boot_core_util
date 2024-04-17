@@ -1,4 +1,8 @@
 management:
+  #actuator port change
+  server:
+    port: 9292
+
   info:
     java:
       enabled: true

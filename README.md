@@ -6,3 +6,7 @@
   - http_server_requests_seconds_count{uri="/log"}  기존에는 기존값에서 증가만하는 그래프
   - rate(~ [시간값]) = 평균증가율 | irate(~ [시간값]) = 순간증가율
   <img width="1512" alt="스크린샷 2024-04-20 오후 5 27 49" src="https://github.com/yhyoon1004/spring_boot_core_util/assets/79188190/cb4e3db9-1cc6-4694-b6df-ea543542282f">
+- 그라파나 대시보드 설정
+  <img width="1512" alt="스크린샷 2024-04-21 오전 10 42 49" src="https://github.com/yhyoon1004/spring_boot_core_util/assets/79188190/d190752d-3a99-472c-8d6f-7e48bc9c56a6">
+  <img width="1512" alt="스크린샷 2024-04-21 오전 10 53 27" src="https://github.com/yhyoon1004/spring_boot_core_util/assets/79188190/aa31421e-1326-4caa-98b3-11810ecde2cc">
+

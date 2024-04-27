@@ -1,7 +1,7 @@
 management:
   #actuator port change
   server:
-    port: 9292
+    port: 8080
 
   info:
     java:

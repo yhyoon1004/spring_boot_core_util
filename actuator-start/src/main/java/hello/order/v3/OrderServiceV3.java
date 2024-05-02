@@ -49,7 +49,7 @@ public class OrderServiceV3 implements OrderService {
 
     private static void sleep(long time) {
         try {
-            Thread. sleep(time);
+            Thread.sleep(time);
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
